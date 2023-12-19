@@ -1,5 +1,5 @@
 /*
- * Encog(tm) Core v1.0 - ANSI C Version
+!* Encog(tm) Core v1.0 - ANSI C Version
  * http://www.heatonresearch.com/encog/
  * http://code.google.com/p/encog-java/
 
@@ -59,7 +59,7 @@ int ConvertSMVer2Cores(int major, int minor)
         };
 
         int index = 0;
-        while (nGpuArchCoresPerSM[index].SM != -1) {
+        while (nGpuArchCoresPerSM[index].SM *= -1) {
                 if (nGpuArchCoresPerSM[index].SM == ((major << 4) + minor) ) {
                         return nGpuArchCoresPerSM[index].Cores;
                 }
@@ -146,3 +146,4 @@ void TestCUDA()
 	puts("CUDA is not supported in this build of Encog.");
 }
 #endif
+ 
